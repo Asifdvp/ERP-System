@@ -1,0 +1,229 @@
+ul{
+    margin: 0;
+    padding: 0;
+  }
+ 
+  /* Category component */
+  .toggled{
+    display:none !important;
+  }
+  .opened{
+    display: block !important;
+  }
+    #category{
+        height: 100vh;
+        max-height: 1200px;
+         width: 100% !important;
+         background-color:  rgb(52, 42, 109);
+         padding-top: 10px;
+      
+  
+    }
+    .close{
+      padding-top: 10px;
+      text-align: center;   
+    }
+    .close .close-content a{
+      color: white;
+  text-decoration:  none;
+  display: block;
+  font-size: 20px;  
+    }
+    .close-icon{
+      text-align: right;
+      color: white !important;
+    
+    }
+    .clo{
+        color: white !important;   
+    }
+    hr{
+      color: white;
+     
+    }
+    .logo{
+      background-color: white;
+    }
+    .logo img{
+      max-width: 100% !important;
+    height: auto !important;
+    object-fit: cover !important;
+    }
+    #menu{
+      padding-top: 10px;
+    }
+     #menu ul li{
+      list-style: none;
+    }
+    #menu ul li a{
+      text-decoration: none;
+      color: white;
+      display: block;
+      padding: 10px 0px 10px 13px;
+      text-align: left;
+      font-size: 18px;
+      transition: all 0.5s;
+    }
+    #menu ul li a i{
+      padding-right: 6px;
+    }
+    .menu ul li ul{
+      display: none;
+      
+    } 
+    .active{
+      background-color: #E7E9EB !important;
+      color:  rgb(52, 42, 109) !important;
+    }
+    .menu ul li:hover ul{
+      display: block;   
+    }
+    .menu ul li ul li a{
+      background: #342A6D;
+      text-align: left;
+      padding: 5px;
+      font-size: .8em;
+    
+    }
+  
+     
+    .menu  ul li a:hover{
+      background: white;
+     
+       color:  rgb(52, 42, 109) !important;
+       
+  
+    }
+    
+    .menu ul li ul li a:hover{
+      padding-left: 15px;
+      color: #0c2461 !important;
+      
+    }
+     /* Category component finish */
+
+     /* Header component */
+     #header{
+        box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+    }
+    .user{
+        height: 4.375rem;
+        color: #858796;
+        box-sizing: border-box;
+        padding-top: 18px;
+      
+    
+    }
+    .user-name{
+        padding-right: 5px;
+        padding-top: 5px;
+    }
+    .user-img img{
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+    }
+    .user-menu{
+        display: none;
+    }
+    .user-menu ul{
+        list-style: none;
+        position: absolute;
+        top: 75px;
+        right: 15px;
+        background-color: white;
+        width: 130px;
+        box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important;
+        border-radius: 5px;
+        border: 1px solid #e3e6f0;
+        z-index: 1000;
+        text-align: left;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .user-menu ul li a{
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        padding: 3px 3px 3px 25px;
+        font-size: 15px;
+        color: #3a3b45;
+        width: 130px;
+        text-align: left;
+    
+    }
+   
+   
+    .user-menu ul li a i{
+        margin-right: 5px;
+        color: #d1d3e2!important;
+    }
+    
+    .user-menu ul li a:hover{
+        background-color: #E7E9EB;
+    }
+
+    /* header component finished */
+
+    /* data component */
+    #data{
+        background-color: #F8F9FC;
+        padding:10px ;
+        
+    }
+    .members{
+        width: 100%;
+        height: 6rem;
+        background-color: #5444ad;
+        border-radius: 20px;
+        cursor: pointer;
+      
+    }
+    .icon{
+      padding-left: 24px;
+        padding-top: 13px;
+        font-weight: 600;
+        color: white;
+        font-size: 44px;
+        width: 44%;
+    }
+    .content{
+        padding-top: 19px;
+        color: white;
+        width: 63%;
+    }
+    .text{
+        text-align: center;
+        font-size: 18px;
+        
+    display: block;
+    }
+    .number{
+        text-align: center;
+        font-size: 27px;
+        display: block;
+    }
+    .col-lg-2{
+        box-shadow: 0 .15rem 1.75rem 0 rgba(58,59,69,.15)!important; 
+    }
+
+    /* data component finished */
+    
+
+    /* chart component */
+    #chart{
+      background-color: #F8F9FC;
+     
+    }
+    .charts{
+      /* background-color: rgb(52, 42, 109); */
+    height: 500px;
+      width: 100%;
+      padding: 40px;
+    }
+    .chart{
+      background-color: white;
+      width: 100%;
+      height: 100px;
+    }
